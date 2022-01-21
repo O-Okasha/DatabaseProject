@@ -33,8 +33,8 @@
             this.txtUsername = new System.Windows.Forms.TextBox();
             this.txtPassword = new System.Windows.Forms.TextBox();
             this.btnLogin = new System.Windows.Forms.Button();
-            this.sign_up = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -47,7 +47,7 @@
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(60)))), ((int)(((byte)(76)))));
             this.label1.Location = new System.Drawing.Point(75, 105);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(125, 32);
+            this.label1.Size = new System.Drawing.Size(118, 31);
             this.label1.TabIndex = 0;
             this.label1.Text = "Username";
             // 
@@ -61,7 +61,7 @@
             this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(60)))), ((int)(((byte)(76)))));
             this.label2.Location = new System.Drawing.Point(75, 183);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(116, 32);
+            this.label2.Size = new System.Drawing.Size(112, 31);
             this.label2.TabIndex = 1;
             this.label2.Text = "Password";
             // 
@@ -103,18 +103,6 @@
             this.btnLogin.UseVisualStyleBackColor = false;
             this.btnLogin.Click += new System.EventHandler(this.btnLogin_Click);
             // 
-            // sign_up
-            // 
-            this.sign_up.AutoSize = true;
-            this.sign_up.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.sign_up.ForeColor = System.Drawing.Color.DarkSlateGray;
-            this.sign_up.Location = new System.Drawing.Point(201, 309);
-            this.sign_up.Name = "sign_up";
-            this.sign_up.Size = new System.Drawing.Size(68, 20);
-            this.sign_up.TabIndex = 5;
-            this.sign_up.Text = "Sign Up?";
-            this.sign_up.Click += new System.EventHandler(this.sign_up_Click);
-            // 
             // label4
             // 
             this.label4.AutoSize = true;
@@ -126,13 +114,27 @@
             this.label4.TabIndex = 6;
             this.label4.Text = "Forgot Password?";
             // 
+            // button1
+            // 
+            this.button1.FlatAppearance.BorderSize = 0;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Underline);
+            this.button1.ForeColor = System.Drawing.Color.DarkSlateGray;
+            this.button1.Location = new System.Drawing.Point(201, 309);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(79, 27);
+            this.button1.TabIndex = 7;
+            this.button1.Text = "Sign Up?";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // UserLogin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(184)))), ((int)(((byte)(192)))), ((int)(((byte)(223)))));
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.label4);
-            this.Controls.Add(this.sign_up);
             this.Controls.Add(this.btnLogin);
             this.Controls.Add(this.txtPassword);
             this.Controls.Add(this.txtUsername);
@@ -153,7 +155,7 @@
         private System.Windows.Forms.TextBox txtUsername;
         private System.Windows.Forms.TextBox txtPassword;
         private System.Windows.Forms.Button btnLogin;
-        private System.Windows.Forms.Label sign_up;
         private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Button button1;
     }
 }

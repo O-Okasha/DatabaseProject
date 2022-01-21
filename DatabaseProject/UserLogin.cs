@@ -24,9 +24,17 @@ namespace DatabaseProject
             mainPage.Show();
         }
 
-        private void sign_up_Click(object sender, EventArgs e)
+        private void label3_Click(object sender, EventArgs e)
         {
+            Signuppage signuppage = new Signuppage();  
+            signuppage.Show();
+        }
 
+        private void button1_Click(object sender, EventArgs e)
+        {
+            MainPage mainPage = new MainPage();
+
+            mainPage.Show();
         }
     }
 }
