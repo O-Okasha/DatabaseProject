@@ -23,5 +23,10 @@ namespace DatabaseProject
             this.Parent.Parent.Parent.Dispose();
             mainPage.Show();
         }
+
+        private void sign_up_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
