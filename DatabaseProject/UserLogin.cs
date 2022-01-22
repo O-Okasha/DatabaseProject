@@ -36,5 +36,7 @@ namespace DatabaseProject
 
             mainPage.Show();
         }
+
+       
     }
 }

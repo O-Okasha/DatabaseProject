@@ -17,11 +17,7 @@ namespace DatabaseProject
             InitializeComponent();
         }
 
-        private void Login_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
+       
         private void LoginPage_Load(object sender, EventArgs e)
         {
             UserLogin userLogin = new UserLogin();

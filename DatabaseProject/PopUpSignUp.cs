@@ -19,7 +19,14 @@ namespace DatabaseProject
 
         private void PopUpSignUp_Load(object sender, EventArgs e)
         {
+           // Signuppage Signuppage = new Signuppage();
+           // Login.Control.Add(Signuppage);
+        }
 
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+           // Signuppage Signuppage = new Signuppage();
+            //Login.Control(Signuppage);
         }
     }
 }

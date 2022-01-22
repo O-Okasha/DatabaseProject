@@ -60,17 +60,7 @@
             this.LoginContainer.Name = "LoginContainer";
             this.LoginContainer.Size = new System.Drawing.Size(503, 570);
             this.LoginContainer.TabIndex = 1;
-            // 
-            // Login
-            // 
-            this.Login.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(47)))), ((int)(((byte)(43)))), ((int)(((byte)(83)))));
-            this.Login.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.Login.Location = new System.Drawing.Point(0, 106);
-            this.Login.Name = "Login";
-            this.Login.Padding = new System.Windows.Forms.Padding(5, 0, 0, 0);
-            this.Login.Size = new System.Drawing.Size(503, 464);
-            this.Login.TabIndex = 0;
-            this.Login.Paint += new System.Windows.Forms.PaintEventHandler(this.Login_Paint);
+           
             // 
             // btnUser
             // 
