@@ -137,11 +137,11 @@
     <Compile Include="models\DBController.cs" />
     <Compile Include="models\GlobalManager.cs" />
     <Compile Include="models\Logger.cs" />
-    <Compile Include="PopUpSignUp.cs">
-      <SubType>Form</SubType>
+    <Compile Include="ProductControl.cs">
+      <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="PopUpSignUp.Designer.cs">
-      <DependentUpon>PopUpSignUp.cs</DependentUpon>
+    <Compile Include="ProductControl.Designer.cs">
+      <DependentUpon>ProductControl.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -162,6 +162,12 @@
     </Compile>
     <Compile Include="UserLogin.Designer.cs">
       <DependentUpon>UserLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="wallet.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="wallet.Designer.cs">
+      <DependentUpon>wallet.cs</DependentUpon>
     </Compile>
     <EmbeddedResource Include="AdminLogin.resx">
       <DependentUpon>AdminLogin.cs</DependentUpon>
